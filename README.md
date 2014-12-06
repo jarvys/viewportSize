@@ -23,15 +23,12 @@ Most people rely on `window.innerWidth`, `document.documentElement.clientWidth`,
 
 Currently, `viewportSize.js` compresses to around 609 bytes (~0.59 KB), after minify and gzip. See `viewportSize-min.js` or try one of these online tools: [Microsoft Ajax Minifier]:(http://ajaxmin.codeplex.com/), [Uglify]:(http://marijnhaverbeke.nl/uglifyjs), [Yahoo Compressor]:(http://refresh-sf.com/yui/), or [Closure Compiler](http://closure-compiler.appspot.com/home). Serve with gzip compression.
 
-## Sample
+## With browserify
 
-
-```html
-<script type="text/javascript">
-	var width = viewportSize.getWidth();
-	var height = viewportSize.getHeight();
-</script>
 ```
+$ npm install viewport-size
+```
+
 
 ## Support
 
