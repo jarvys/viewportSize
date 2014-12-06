@@ -1,5 +1,5 @@
 {
-  "name": "viewportSize",
+  "name": "viewport-size",
   "version": "0.0.0",
   "description": "Allows you to get the width and height of the CSS viewport using JavaScript.",
   "main": "viewportSize.js",
